@@ -12,7 +12,8 @@ final class UserDetailsRouter {
 }
 
 extension UserDetailsRouter: UserDetailsRouterInput {
-    func close() {
-        
+    func routeToRepoDetails(repoName: String, url: URL) {
+        let vc = WebViewController(title: repoName, url: url)
+        viewController.navigationController?.pushViewController(vc, animated: true)
     }
 }

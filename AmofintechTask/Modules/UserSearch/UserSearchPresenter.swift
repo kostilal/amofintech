@@ -12,6 +12,7 @@ final class UserSearchPresenter {
     unowned private let view: UserSearchViewInput
     private let router: UserSearchRouterInput
     private let githubService: GithubServiceProtocol
+    private var models: [UserDetailsServerModel] = []
     
     // MARK: - Init
     init(view: UserSearchViewInput, 
@@ -24,13 +25,19 @@ final class UserSearchPresenter {
 
 // MARK: - UserSearchViewOutput
 extension UserSearchPresenter: UserSearchViewOutput {
-    func viewDidLoad() {
-    }
-    
     func viewDidChangeSearchText(_ text: String) {
-        guard text.count > 0 else { return }
+        guard text.count > 0 else {
+            view.updateDataSource(with: [])
+            return
+        }
         
         searchUser(text)
+    }
+    
+    func selectUser(index: Int) {
+        if models.indices.contains(index) {
+            router.routeToUserDetails(models[index])
+        }
     }
 }
 
@@ -48,18 +55,29 @@ private extension UserSearchPresenter {
         }
     }
     
-    func fetchUsersDetails(for users: [UserServerModel]) {
+    func fetchUsersDetails(for users: [SearchUserServerModel]) {
         let names = users.map { $0.accountName }
+        let group = DispatchGroup()
+        models.removeAll()
        
         names.forEach { name in
+            group.enter()
             githubService.fetchUser(username: name) {[weak self] result in
                 switch result {
                 case .success(let response):
-                    print(response)
+                    if let userDetails = response.user {
+                        self?.models.append(userDetails)
+                    }
                 case .failure(let error):
                     print(error.localizedDescription)
                 }
+                
+                group.leave()
             }
+        }
+        
+        group.notify(queue: .main) {
+            self.view.updateDataSource(with: self.models)
         }
     }
 }

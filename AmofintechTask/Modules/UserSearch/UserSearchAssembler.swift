@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 struct UserSearchAssembler {
-    func createModule(navigationController: UINavigationController?) -> UserSearchViewController {
+    func createModule() -> UserSearchViewController {
         let vc: UserSearchViewController = .init(loadType: .xib)
         
         let router = UserSearchRouter()

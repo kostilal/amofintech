@@ -20,8 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 private extension AppDelegate {
     func setupWindow() {
+        let nv = UINavigationController(rootViewController: UserSearchAssembler().createModule())
+        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UserSearchAssembler().createModule(navigationController: UINavigationController())
+        window?.rootViewController = nv
         window?.makeKeyAndVisible()
     }
 }

@@ -13,12 +13,12 @@ struct UserDetailsServerModel: Decodable {
     var userName: String
     var email: String?
     var bio: String?
-    var createdAt: String
     var location: String?
     var followersCount: Int64
     var followingCount: Int64
     var publicReposCount: Int64
     var avatarURL: String?
+    var createdAt: String
     
     private enum CodingKeys: String, CodingKey {
         case userName = "name"
@@ -42,27 +42,35 @@ struct UserDetailsServerModel: Decodable {
         self.accountName = container.failsafeDecodeIfPresent(stringForKey: .accountName) ?? ""
         self.email = container.failsafeDecodeIfPresent(stringForKey: .email)
         self.bio = container.failsafeDecodeIfPresent(stringForKey: .bio)
-        self.createdAt = container.failsafeDecodeIfPresent(String.self, forKey: .createdAt) ?? ""
         self.location = container.failsafeDecodeIfPresent(stringForKey: .location)
         self.followersCount = try container.decodeIfPresent(Int64.self, forKey: .followersCount) ?? 0
         self.followingCount = try container.decodeIfPresent(Int64.self, forKey: .followingCount) ?? 0
         self.publicReposCount = try container.decodeIfPresent(Int64.self, forKey: .publicReposCount) ?? 0
         self.avatarURL = container.failsafeDecodeIfPresent(String.self, forKey: .avatarURL)
+        self.createdAt = container.failsafeDecodeIfPresent(String.self, forKey: .createdAt) ?? ""
     }
-    
-    private func decodeCreatedAtDate(dateString: String?) -> Date {
-        guard let dateString = dateString else {
-            return Date()
-        }
-        
-        return Date(dateString: dateString)
+}
+
+extension UserDetailsServerModel: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(userID)
+        hasher.combine(accountName)
+        hasher.combine(userName)
+        hasher.combine(avatarURL)
+        hasher.combine(email)
+        hasher.combine(bio)
+        hasher.combine(location)
+        hasher.combine(followersCount)
+        hasher.combine(followingCount)
     }
-    
-    private func decodeURL(urlString: String?) -> URL? {
-        guard let urlString = urlString else {
-            return nil
-        }
-        
-        return URL(string: urlString)
+}
+
+extension UserDetailsServerModel: Comparable {
+    public static func == (lhs: UserDetailsServerModel, rhs: UserDetailsServerModel) -> Bool {
+        return lhs.userID == rhs.userID
+    }
+
+    public static func < (lhs: UserDetailsServerModel, rhs: UserDetailsServerModel) -> Bool {
+        return lhs.userID < rhs.userID
     }
 }

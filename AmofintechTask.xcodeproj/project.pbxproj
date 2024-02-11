@@ -16,16 +16,17 @@
 		C421639E2B78D96C00BB210F /* GithubUserListResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E12B73BD780026C957 /* GithubUserListResponseBuilder.swift */; };
 		C421639F2B78D96C00BB210F /* SearchDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E82B73BD780026C957 /* SearchDetailsRequest.swift */; };
 		C42163A02B78D96C00BB210F /* UserDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E22B73BD780026C957 /* UserDetailsResponse.swift */; };
-		C42163A12B78D96C00BB210F /* UserServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E62B73BD780026C957 /* UserServerModel.swift */; };
+		C42163A12B78D96C00BB210F /* SearchUserServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E62B73BD780026C957 /* SearchUserServerModel.swift */; };
 		C42163A22B78D96C00BB210F /* UserReposResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E02B73BD780026C957 /* UserReposResponseBuilder.swift */; };
 		C42163A32B78EA4E00BB210F /* ParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C422E92B73BD780026C957 /* ParsingError.swift */; };
 		C42163A62B78EBBC00BB210F /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163A52B78EBBC00BB210F /* GithubService.swift */; };
 		C42163A82B78ED0400BB210F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163A72B78ED0400BB210F /* Result.swift */; };
 		C42163AE2B78ED7800BB210F /* HttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163A92B78ED7700BB210F /* HttpStatus.swift */; };
-		C42163AF2B78ED7800BB210F /* RawDataInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163AA2B78ED7700BB210F /* RawDataInitializable.swift */; };
 		C42163B12B78ED7800BB210F /* FunctionalComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163AC2B78ED7700BB210F /* FunctionalComposition.swift */; };
-		C42163B22B78ED7800BB210F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163AD2B78ED7800BB210F /* DateFormatter.swift */; };
-		C42163B42B78FB1B00BB210F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B32B78FB1B00BB210F /* Task.swift */; };
+		C42163B62B7930FC00BB210F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B52B7930FC00BB210F /* DateFormatter.swift */; };
+		C42163BA2B79334300BB210F /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B82B79334300BB210F /* RepoCell.swift */; };
+		C42163BB2B79334300BB210F /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42163B92B79334300BB210F /* RepoCell.xib */; };
+		C42163BE2B79379E00BB210F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163BD2B79379E00BB210F /* WebViewController.swift */; };
 		C4C4229C2B7394F70026C957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4229B2B7394F70026C957 /* AppDelegate.swift */; };
 		C4C422A52B7394F90026C957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C422A42B7394F90026C957 /* Assets.xcassets */; };
 		C4C422A82B7394FA0026C957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C422A62B7394FA0026C957 /* LaunchScreen.storyboard */; };
@@ -55,10 +56,11 @@
 		C42163A52B78EBBC00BB210F /* GithubService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
 		C42163A72B78ED0400BB210F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		C42163A92B78ED7700BB210F /* HttpStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpStatus.swift; sourceTree = "<group>"; };
-		C42163AA2B78ED7700BB210F /* RawDataInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawDataInitializable.swift; sourceTree = "<group>"; };
 		C42163AC2B78ED7700BB210F /* FunctionalComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalComposition.swift; sourceTree = "<group>"; };
-		C42163AD2B78ED7800BB210F /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
-		C42163B32B78FB1B00BB210F /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C42163B52B7930FC00BB210F /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = "../../../../../../../../../Downloads/AtlanaTask-master 2/AtlanaTask/Sources/Helpers/Utilities/DateFormatter.swift"; sourceTree = "<group>"; };
+		C42163B82B79334300BB210F /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		C42163B92B79334300BB210F /* RepoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoCell.xib; sourceTree = "<group>"; };
+		C42163BD2B79379E00BB210F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C4C422982B7394F70026C957 /* AmofintechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmofintechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C4229B2B7394F70026C957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4C422A42B7394F90026C957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		C4C422E22B73BD780026C957 /* UserDetailsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsResponse.swift; sourceTree = "<group>"; };
 		C4C422E32B73BD780026C957 /* GithubUserListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserListResponse.swift; sourceTree = "<group>"; };
 		C4C422E52B73BD780026C957 /* UserDetailsServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsServerModel.swift; sourceTree = "<group>"; };
-		C4C422E62B73BD780026C957 /* UserServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServerModel.swift; sourceTree = "<group>"; };
+		C4C422E62B73BD780026C957 /* SearchUserServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserServerModel.swift; sourceTree = "<group>"; };
 		C4C422E72B73BD780026C957 /* GithubRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRepo.swift; sourceTree = "<group>"; };
 		C4C422E82B73BD780026C957 /* SearchDetailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsRequest.swift; sourceTree = "<group>"; };
 		C4C422E92B73BD780026C957 /* ParsingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingError.swift; sourceTree = "<group>"; };
@@ -117,6 +119,31 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		C42163B72B79331F00BB210F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C42163B82B79334300BB210F /* RepoCell.swift */,
+				C42163B92B79334300BB210F /* RepoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C42163BC2B79378500BB210F /* RepoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C42163BD2B79379E00BB210F /* WebViewController.swift */,
+			);
+			path = RepoDetails;
+			sourceTree = "<group>";
+		};
+		C42163BF2B7941A600BB210F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				C4C422E82B73BD780026C957 /* SearchDetailsRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		C4C4228F2B7394F70026C957 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +173,7 @@
 		C4C422AF2B739C0A0026C957 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				C42163BC2B79378500BB210F /* RepoDetails */,
 				C4C422B22B739C400026C957 /* UserDetails */,
 				C4C422B12B739C340026C957 /* UserSearch */,
 				C4C422B02B739C170026C957 /* Launch */,
@@ -178,6 +206,7 @@
 		C4C422B22B739C400026C957 /* UserDetails */ = {
 			isa = PBXGroup;
 			children = (
+				C42163B72B79331F00BB210F /* Cells */,
 				C4C422F62B73BEAF0026C957 /* UserDetailsViewController.swift */,
 				C4C422F72B73BEAF0026C957 /* UserDetailsViewController.xib */,
 				C4C422FA2B73BEDA0026C957 /* UserDetailsProtocols.swift */,
@@ -270,10 +299,8 @@
 		C4C422D32B73B7C40026C957 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				C42163B32B78FB1B00BB210F /* Task.swift */,
-				C42163AD2B78ED7800BB210F /* DateFormatter.swift */,
+				C42163B52B7930FC00BB210F /* DateFormatter.swift */,
 				C42163AC2B78ED7700BB210F /* FunctionalComposition.swift */,
-				C42163AA2B78ED7700BB210F /* RawDataInitializable.swift */,
 				C42163A72B78ED0400BB210F /* Result.swift */,
 				C4C422D42B73B7E80026C957 /* Configurable.swift */,
 				C4C422D62B73B8090026C957 /* Reusable.swift */,
@@ -296,9 +323,9 @@
 		C4C422DC2B73BD780026C957 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				C42163BF2B7941A600BB210F /* Request */,
 				C4C422DD2B73BD780026C957 /* Response */,
 				C4C422E42B73BD780026C957 /* Models */,
-				C4C422E82B73BD780026C957 /* SearchDetailsRequest.swift */,
 			);
 			path = Github;
 			sourceTree = "<group>";
@@ -320,7 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				C4C422E52B73BD780026C957 /* UserDetailsServerModel.swift */,
-				C4C422E62B73BD780026C957 /* UserServerModel.swift */,
+				C4C422E62B73BD780026C957 /* SearchUserServerModel.swift */,
 				C4C422E72B73BD780026C957 /* GithubRepo.swift */,
 			);
 			path = Models;
@@ -391,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4C422F92B73BEAF0026C957 /* UserDetailsViewController.xib in Resources */,
+				C42163BB2B79334300BB210F /* RepoCell.xib in Resources */,
 				C4C422CF2B73B3D10026C957 /* UserCell.xib in Resources */,
 				C4C422C22B73A0690026C957 /* UserSearchViewController.xib in Resources */,
 				C4C422A82B7394FA0026C957 /* LaunchScreen.storyboard in Resources */,
@@ -405,24 +433,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42163B22B78ED7800BB210F /* DateFormatter.swift in Sources */,
 				C421639C2B78D96C00BB210F /* UserDetailsServerModel.swift in Sources */,
-				C42163AF2B78ED7800BB210F /* RawDataInitializable.swift in Sources */,
 				C4C422D92B73B8230026C957 /* NibLoadableView.swift in Sources */,
 				C421639E2B78D96C00BB210F /* GithubUserListResponseBuilder.swift in Sources */,
 				C4C422F82B73BEAF0026C957 /* UserDetailsViewController.swift in Sources */,
+				C42163BA2B79334300BB210F /* RepoCell.swift in Sources */,
 				C42163992B78D96C00BB210F /* GithubUserListResponse.swift in Sources */,
 				C421639D2B78D96C00BB210F /* GithubRepo.swift in Sources */,
 				C4C422D52B73B7E80026C957 /* Configurable.swift in Sources */,
 				C42163A22B78D96C00BB210F /* UserReposResponseBuilder.swift in Sources */,
+				C42163B62B7930FC00BB210F /* DateFormatter.swift in Sources */,
 				C42163A62B78EBBC00BB210F /* GithubService.swift in Sources */,
 				C4C422D72B73B8090026C957 /* Reusable.swift in Sources */,
 				C4C422FF2B73BEEF0026C957 /* UserDetailsRouter.swift in Sources */,
 				C4C422BB2B739F0D0026C957 /* BaseController.swift in Sources */,
 				C42163982B78D96C00BB210F /* UserDetailsResponseBuilder.swift in Sources */,
 				C4C422C82B73A2DA0026C957 /* UserSearchRouter.swift in Sources */,
-				C42163B42B78FB1B00BB210F /* Task.swift in Sources */,
-				C42163A12B78D96C00BB210F /* UserServerModel.swift in Sources */,
+				C42163A12B78D96C00BB210F /* SearchUserServerModel.swift in Sources */,
 				C42163AE2B78ED7800BB210F /* HttpStatus.swift in Sources */,
 				C42163A02B78D96C00BB210F /* UserDetailsResponse.swift in Sources */,
 				C421639B2B78D96C00BB210F /* UserReposResponse.swift in Sources */,
@@ -431,6 +458,7 @@
 				C42163A32B78EA4E00BB210F /* ParsingError.swift in Sources */,
 				C421639A2B78D96C00BB210F /* NetworkService.swift in Sources */,
 				C4C422C12B73A0690026C957 /* UserSearchViewController.swift in Sources */,
+				C42163BE2B79379E00BB210F /* WebViewController.swift in Sources */,
 				C4C422FB2B73BEDA0026C957 /* UserDetailsProtocols.swift in Sources */,
 				C4C422BE2B739F450026C957 /* Extensions.swift in Sources */,
 				C421639F2B78D96C00BB210F /* SearchDetailsRequest.swift in Sources */,

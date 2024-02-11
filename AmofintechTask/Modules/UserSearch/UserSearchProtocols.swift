@@ -10,18 +10,18 @@ import Foundation
 // MARK: - UserSearchRouterInput
 protocol UserSearchRouterInput: AnyObject {
     /* Presenter -> Router */
-    func routeToUserDetails()
+    func routeToUserDetails(_ user: UserDetailsServerModel)
 }
 
 // MARK: - UserSearchViewOutput
 protocol UserSearchViewOutput: AnyObject {
     /* View -> Presenter */
-    func viewDidLoad()
     func viewDidChangeSearchText(_ text: String)
+    func selectUser(index: Int)
 }
 
 // MARK: - UserSearchViewInput
 protocol UserSearchViewInput: AnyObject {
     /* Presenter -> ViewController */
-    func updateDataSource(with users: [UserServerModel])
+    func updateDataSource(with users: [UserDetailsServerModel])
 }

@@ -30,8 +30,8 @@
             filePath = "AmofintechTask/Sources/Application/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "setupWindow()"
             landmarkType = "7">
          </BreakpointContent>
@@ -40,189 +40,31 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EE93E3D4-86C0-427B-AB73-1B7BA9BCFC7B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AmofintechTask/Modules/UserDetails/UserDetailsAssembler.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "createModule(navigationController:)"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "createModule(payload:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F5B5E5B0-E8C1-4980-A84B-A2CEA36DADDE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "searchUser(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F5B5E5B0-E8C1-4980-A84B-A2CEA36DADDE - 43c0bd48adaee090"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AmofintechTask.UserSearchPresenter.searchUser(Swift.String) -&gt; ()"
-                  moduleName = "AmofintechTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "F5B5E5B0-E8C1-4980-A84B-A2CEA36DADDE - bb74d3501b403ef1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; () in AmofintechTask.UserSearchPresenter.searchUser(Swift.String) -&gt; ()"
-                  moduleName = "AmofintechTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "144">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "12BBEAD4-5939-465D-B36E-CBDAF4CE8B79"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "searchUser(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "12BBEAD4-5939-465D-B36E-CBDAF4CE8B79 - bb74d3501b403ef1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; () in AmofintechTask.UserSearchPresenter.searchUser(Swift.String) -&gt; ()"
-                  moduleName = "AmofintechTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "12BBEAD4-5939-465D-B36E-CBDAF4CE8B79 - bb74d3501b403ef1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; () in AmofintechTask.UserSearchPresenter.searchUser(Swift.String) -&gt; ()"
-                  moduleName = "AmofintechTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "184">
-               </Location>
-               <Location
-                  uuid = "12BBEAD4-5939-465D-B36E-CBDAF4CE8B79 - bb74d3501b403ef1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; () in AmofintechTask.UserSearchPresenter.searchUser(Swift.String) -&gt; ()"
-                  moduleName = "AmofintechTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "156">
-               </Location>
-               <Location
-                  uuid = "12BBEAD4-5939-465D-B36E-CBDAF4CE8B79 - bb74d3501b403ef1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; () in AmofintechTask.UserSearchPresenter.searchUser(Swift.String) -&gt; ()"
-                  moduleName = "AmofintechTask"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "196">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "281B6E97-5676-43A9-B08A-D260506A4E98"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F9B9732D-7DD9-450F-85D7-54837A61B500"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "searchUser(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D33FC8D2-9317-4D2D-A886-3B28402CF07C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "requestUserList(searchRequest:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -246,15 +88,685 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "583900E0-E9E4-4ACF-ACB7-610B0E2C0F7F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AmofintechTask/Sources/Services/GithubService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
             landmarkName = "parseUserListResult(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93D037F9-E9F7-4961-BEB5-DF6FFF38FC3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5DB53D0-AFC7-4FCE-A95A-00DC21841647"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D5DB53D0-AFC7-4FCE-A95A-00DC21841647 - 1242ab0b9a0bf20c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt; in AmofintechTask.UserSearchViewController.dataSource.getter : UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "D5DB53D0-AFC7-4FCE-A95A-00DC21841647 - 13edd01013803a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView, Foundation.IndexPath, AmofintechTask.UserDetailsServerModel) -&gt; Swift.Optional&lt;__C.UITableViewCell&gt; in closure #1 () -&gt; UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt; in AmofintechTask.UserSearchViewController.dataSource.getter : UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3B8E69B-4F04-407F-9400-673F69A27222"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "fetchUsersDetails(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "189CFE01-168E-43D9-9246-EC35A8F7649D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "fetchUsersDetails(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "189CFE01-168E-43D9-9246-EC35A8F7649D - 166c3e4ad04032ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt;) -&gt; () in closure #2 (Swift.String) -&gt; () in AmofintechTask.UserSearchPresenter.fetchUsersDetails(for: Swift.Array&lt;AmofintechTask.SearchUserServerModel&gt;) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "189CFE01-168E-43D9-9246-EC35A8F7649D - 166c3e4ad04032ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt;) -&gt; () in closure #2 (Swift.String) -&gt; () in AmofintechTask.UserSearchPresenter.fetchUsersDetails(for: Swift.Array&lt;AmofintechTask.SearchUserServerModel&gt;) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A417A465-D31F-44E7-9E2D-3A8322EED9F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "parseUserDetails(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A417A465-D31F-44E7-9E2D-3A8322EED9F6 - 473a29bd7d6104c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.parseUserRepos(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.UserReposResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "A417A465-D31F-44E7-9E2D-3A8322EED9F6 - e764b6e8e42084db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.parseUserDetails(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1E6A1EE-57D1-486F-AD51-3B7F190FFDBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "parseUserDetails(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1E6A1EE-57D1-486F-AD51-3B7F190FFDBC - e764b6e8e420875f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.parseUserDetails(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "E1E6A1EE-57D1-486F-AD51-3B7F190FFDBC - 6b37781c4019396c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AmofintechTask.ParsingError) -&gt; Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt; in AmofintechTask.GithubService.parseUserDetails(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "E1E6A1EE-57D1-486F-AD51-3B7F190FFDBC - e764b6e8e420875f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.parseUserDetails(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.UserDetailsResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62AF6597-F3BF-4002-B2D0-043FD83DFD08"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "fetchUser(username:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0BE52BA-2F31-4E63-9411-5F8CBD7A90B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "parseUserListResult(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0BE52BA-2F31-4E63-9411-5F8CBD7A90B5 - d121eda4dfeb876f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.parseUserListResult(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "B0BE52BA-2F31-4E63-9411-5F8CBD7A90B5 - fc512aa4cc28835d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AmofintechTask.ParsingError) -&gt; Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt; in AmofintechTask.GithubService.parseUserListResult(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "B0BE52BA-2F31-4E63-9411-5F8CBD7A90B5 - d121eda4dfeb876f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.parseUserListResult(Swift.Optional&lt;Foundation.Data&gt;) -&gt; Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63EFEDD0-5882-4A9E-A9B1-B7118DCE1C62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Networking/Github/Response/GithubUserListResponseBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "buildResult()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23CBE0B0-3C5E-43F8-ADBF-6A0ED0549C67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "requestUserList(searchRequest:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23CBE0B0-3C5E-43F8-ADBF-6A0ED0549C67 - e20f58ad0ad42ffe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.GithubService.requestUserList(searchRequest: Swift.Optional&lt;AmofintechTask.SearchDetailsRequest&gt;, completion: (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "23CBE0B0-3C5E-43F8-ADBF-6A0ED0549C67 - 32217ac153704074"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AmofintechTask.SearchDetailsRequest) -&gt; Swift.Optional&lt;Swift.String&gt; in AmofintechTask.GithubService.requestUserList(searchRequest: Swift.Optional&lt;AmofintechTask.SearchDetailsRequest&gt;, completion: (Swift.Result&lt;AmofintechTask.GithubUserListResponse, AmofintechTask.GithubError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Sources/Services/GithubService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7D2A560-958E-4473-A665-883E285BA75A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "verifyServerResponse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B90E0AAE-C7E1-4DC8-B892-9892CBA6F726"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Services/GithubService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "networkErrorToResult(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3787DE2B-9742-4017-9272-AB5ABBF730AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Common/Helpers/Result.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "mapBoth(ifSuccess:ifFailure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17802E72-A72E-4902-9358-0B397E8D7DB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Networking/Github/Response/GithubUserListResponseBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "buildResult()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3D5B5C3-F671-496B-9BE6-D291FC2004CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Networking/Github/Response/UserDetailsResponseBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "buildResult()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "301AEED5-D029-4E75-BCCF-5E4A317AD71E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Sources/Networking/Github/Response/UserDetailsResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01799896-3515-4F46-AA4D-8D3A38E80C70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "01799896-3515-4F46-AA4D-8D3A38E80C70 - 13edd0101380347"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView, Foundation.IndexPath, AmofintechTask.UserDetailsServerModel) -&gt; Swift.Optional&lt;__C.UITableViewCell&gt; in closure #1 () -&gt; UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt; in AmofintechTask.UserSearchViewController.dataSource.getter : UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "01799896-3515-4F46-AA4D-8D3A38E80C70 - 13edd0101380364"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView, Foundation.IndexPath, AmofintechTask.UserDetailsServerModel) -&gt; Swift.Optional&lt;__C.UITableViewCell&gt; in closure #1 () -&gt; UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt; in AmofintechTask.UserSearchViewController.dataSource.getter : UIKit.UITableViewDiffableDataSource&lt;Swift.Int, AmofintechTask.UserDetailsServerModel&gt;"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EC5256C-DABF-4B2C-A26C-33A9EEB18795"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/Cells/UserCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EC5256C-DABF-4B2C-A26C-33A9EEB18795 - 6a70ce2c518ec2c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.UserCell.configure(with: AmofintechTask.UserDetailsServerModel) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/Cells/UserCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "7EC5256C-DABF-4B2C-A26C-33A9EEB18795 - 6a70ce2c518ec382"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.UserCell.configure(with: AmofintechTask.UserDetailsServerModel) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/Cells/UserCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39B89823-61E1-4AE9-B551-D1E60936C9AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "routeToUserDetails(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "39B89823-61E1-4AE9-B551-D1E60936C9AB - 2088f4ab37538439"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.UserSearchRouter.routeToUserDetails() -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "39B89823-61E1-4AE9-B551-D1E60936C9AB - 371ff45e8d94748a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmofintechTask.UserSearchRouter.routeToUserDetails(AmofintechTask.UserDetailsServerModel) -&gt; ()"
+                  moduleName = "AmofintechTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kostilal/Documents/Work/Projects/Test/AmofintechTask/AmofintechTask/Modules/UserSearch/UserSearchRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58A84E5E-89C2-450E-8F6D-D976F4CC2861"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserSearch/UserSearchRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "routeToUserDetails(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A39036B1-19F4-4350-875B-3A0FB7CB4993"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserDetails/UserDetailsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB59A41F-0F22-414C-833F-F4A707EEAF7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmofintechTask/Modules/UserDetails/UserDetailsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidChangeSearchText(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

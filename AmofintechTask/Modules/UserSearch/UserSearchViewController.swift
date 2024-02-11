@@ -11,7 +11,7 @@ final class UserSearchViewController: BaseViewController {
     @IBOutlet weak private var searchBar: UISearchBar!
     @IBOutlet weak private var tableView: UITableView!
     
-    private lazy var dataSource: UITableViewDiffableDataSource<Int, UserServerModel> = {
+    private lazy var dataSource: UITableViewDiffableDataSource<Int, UserDetailsServerModel> = {
         UITableViewDiffableDataSource(tableView: tableView) { tableView, indexPath, model in
             let cell: UserCell = tableView.dequeueReusableCell(for: indexPath)
             cell.configure(with: model)
@@ -20,7 +20,7 @@ final class UserSearchViewController: BaseViewController {
     }()
     
     var output: UserSearchViewOutput!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,8 +29,10 @@ final class UserSearchViewController: BaseViewController {
 }
 
 extension UserSearchViewController: UserSearchViewInput {
-    func updateDataSource(with users: [UserServerModel]) {
-        var snapshot = NSDiffableDataSourceSnapshot<Int, UserServerModel>()
+    func updateDataSource(with users: [UserDetailsServerModel]) {
+        tableView.restore()
+        
+        var snapshot = NSDiffableDataSourceSnapshot<Int, UserDetailsServerModel>()
         snapshot.appendSections([.zero])
         snapshot.appendItems(users, toSection: .zero)
         
@@ -40,12 +42,16 @@ extension UserSearchViewController: UserSearchViewInput {
 
 private extension UserSearchViewController {
     func configure() {
+        title = "Github Searcher"
+        
         searchBar.delegate = self
+        searchBar.placeholder = "Search user"
+        
         tableView.delegate = self
+        tableView.register(cell: UserCell.self)
         tableView.dataSource = dataSource
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 71.0
-        tableView.register(UserCell.self)
+        tableView.rowHeight = 70.0
+        tableView.setEmptyMessage("Search Github user")
     }
 }
 
@@ -57,6 +63,8 @@ extension UserSearchViewController: UISearchBarDelegate {
 
 extension UserSearchViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        output.selectUser(index: indexPath.row)
         
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

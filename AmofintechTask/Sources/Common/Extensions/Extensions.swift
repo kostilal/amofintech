@@ -1,5 +1,5 @@
 //
-//  NSObjectExtension.swift
+//  Extensions.swift
 //  AmofintechTask
 //
 //  Created by Illia Kostiukevych on 07.02.2024.
@@ -53,11 +53,35 @@ extension URL {
 }
 
 extension UITableView {
-    func register<T: UITableViewCell>(_ name: T.Type) {
-        register(T.self, forCellReuseIdentifier: String(describing: name))
+    func register<T: UITableViewCell>(cell: T.Type) where T: Reusable, T: NibLoadableView {
+        let nib = UINib(nibName: T.nibName, bundle: Bundle.main)
+        register(nib, forCellReuseIdentifier: T.defaultReuseIdentifier)
+    }
+    
+    func dequeueReusableCell<T: Reusable>(for indexPath: IndexPath) -> T {
+        guard let cell = dequeueReusableCell(withIdentifier: T.defaultReuseIdentifier, for: indexPath) as? T else {
+            fatalError("no cell with identifier \(T.defaultReuseIdentifier) could be dequeued")
+        }
+        return cell
+    }
+}
+
+extension UITableView {
+    func setEmptyMessage(_ message: String) {
+        let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
+        messageLabel.text = message
+        messageLabel.textColor = .black
+        messageLabel.numberOfLines = 0
+        messageLabel.textAlignment = .center
+        messageLabel.font = .systemFont(ofSize: 15)
+        messageLabel.sizeToFit()
+
+        self.backgroundView = messageLabel
+        self.separatorStyle = .none
     }
 
-    func dequeueReusableCell<T: UITableViewCell>(for indexPath: IndexPath) -> T {
-        dequeueReusableCell(withIdentifier: String(describing: T.self), for: indexPath) as! T
+    func restore() {
+        self.backgroundView = nil
+        self.separatorStyle = .singleLine
     }
 }

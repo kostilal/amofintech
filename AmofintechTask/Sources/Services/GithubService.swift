@@ -68,11 +68,10 @@ final class GithubService: GithubServiceProtocol {
         let query = searchRequest.flatMap { "q=\($0.searchString)&per_page=5" } ?? ""
         let url = Constants.searchUsersAbsoluteURL.urlWith(query: query)!
         let request = URLRequest(url: url)
-        
-        print("Request for URL: \(url.absoluteString)")
 
         networkService.perform(request: request) { [weak self] result in
-            guard let `self` = self else { return }
+            guard let self = self else { return }
+            
             self.queue.async {
                 completion(
                     result.flatMapBoth(
@@ -90,12 +89,11 @@ final class GithubService: GithubServiceProtocol {
     func fetchUser(username: String, completion: @escaping (Result<UserDetailsResponse, GithubError>) -> Void) {
         let query = "/\(username)"
         let url = Constants.usersAbsoluteURL.appendingPathComponent(query)
-        
-        print("Request for URL: \(url.absoluteString)")
-        
         let request = URLRequest(url: url)
+
         networkService.perform(request: request) { [weak self] result in
-            guard let `self` = self else { return }
+            guard let self = self else { return }
+            
             self.queue.async {
                 completion(
                     result.flatMapBoth(
@@ -113,12 +111,10 @@ final class GithubService: GithubServiceProtocol {
     func fetchUserRepos(for userName: String, completion: @escaping (Result<UserReposResponse, GithubError>) -> Void) {
         let query = "/\(userName)/repos"
         let url = Constants.usersAbsoluteURL.appendingPathComponent(query)
-        
-        print("Request for URL: \(url.absoluteString)")
-        
         let request = URLRequest(url: url)
+        
         networkService.perform(request: request) { [weak self] result in
-            guard let `self` = self else { return }
+            guard let self = self else { return }
             
             self.queue.async {
                 completion(

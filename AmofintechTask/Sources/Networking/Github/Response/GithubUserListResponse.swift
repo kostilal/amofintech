@@ -12,13 +12,13 @@ struct GithubUserListResponse: Decodable {
         return GithubUserListResponse(models: [])
     }
     
-    var models: [UserServerModel] = []
+    var models: [SearchUserServerModel] = []
     
     private enum CodingKeys: String, CodingKey {
         case items
     }
     
-    init(models: [UserServerModel]) {
+    init(models: [SearchUserServerModel]) {
         self.models = models
     }
     
@@ -26,7 +26,7 @@ struct GithubUserListResponse: Decodable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         do {
-            self.models = try container.decode([UserServerModel].self, forKey: .items)
+            self.models = try container.decode([SearchUserServerModel].self, forKey: .items)
         } catch DecodingError.keyNotFound {
             print("GithubUserListResponse keyNotFound!")
         }

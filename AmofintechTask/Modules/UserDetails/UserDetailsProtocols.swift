@@ -10,16 +10,20 @@ import Foundation
 // MARK: - UserDetailsRouterInput
 protocol UserDetailsRouterInput: AnyObject {
     /* Presenter -> Router */
-    func close()
+    func routeToRepoDetails(repoName: String, url: URL)
 }
 
 // MARK: - UserDetailsViewOutput
 protocol UserDetailsViewOutput: AnyObject {
     /* View -> Presenter */
     func viewDidLoad()
+    func selectRepo(index: Int)
+    func viewDidChangeSearchText(_ text: String)
 }
 
 // MARK: - UserDetailsViewInput
 protocol UserDetailsViewInput: AnyObject {
     /* Presenter -> ViewController */
+    func setUserModel(userModel: UserDetailsServerModel)
+    func updateDataSource(with repos: [GithubRepo])
 }

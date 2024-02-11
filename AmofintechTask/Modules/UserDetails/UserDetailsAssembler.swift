@@ -9,13 +9,17 @@ import Foundation
 import UIKit
 
 struct UserDetailsAssembler {
-    func createModule(navigationController: UINavigationController) -> UserDetailsViewController {
+    func createModule(payload: UserDetailsServerModel) -> UserDetailsViewController {
         let vc: UserDetailsViewController = .init(loadType: .xib)
         
         let router = UserDetailsRouter()
         router.viewController = vc
         
-        let presenter: UserDetailsPresenter = .init(view: vc, router: router)
+        let presenter: UserDetailsPresenter = .init(
+            view: vc,
+            router: router,
+            userModel: payload
+        )
         vc.output = presenter
 
         return vc

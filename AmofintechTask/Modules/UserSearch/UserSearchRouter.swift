@@ -12,7 +12,9 @@ final class UserSearchRouter {
 }
 
 extension UserSearchRouter: UserSearchRouterInput {
-    func routeToUserDetails() {
+    func routeToUserDetails(_ user: UserDetailsServerModel) {
+        let vc = UserDetailsAssembler().createModule(payload: user)
         
+        viewController?.navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -13,21 +13,12 @@ final class UserCell: UITableViewCell, Reusable, Configurable, NibLoadableView {
     @IBOutlet weak private var userNameLabel: UILabel!
     @IBOutlet weak private var repoCountLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        setup()
-    }
-    
-    func configure(with viewModel: UserServerModel) {
-        userImageView.kf.setImage(with: URL(string: viewModel.avatarURL))
+    func configure(with viewModel: UserDetailsServerModel) {
         userNameLabel.text = viewModel.userName
-        repoCountLabel.text = "Repo: \(viewModel.reposCount)"
-    }
-}
-
-private extension UserCell {
-    func setup() {
+        repoCountLabel.text = "Repo: \(viewModel.publicReposCount)"
         
+        if let avatarURL = viewModel.avatarURL {
+            userImageView.kf.setImage(with: URL(string: avatarURL))
+        }
     }
 }
