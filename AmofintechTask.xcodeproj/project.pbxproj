@@ -23,10 +23,10 @@
 		C42163A82B78ED0400BB210F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163A72B78ED0400BB210F /* Result.swift */; };
 		C42163AE2B78ED7800BB210F /* HttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163A92B78ED7700BB210F /* HttpStatus.swift */; };
 		C42163B12B78ED7800BB210F /* FunctionalComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163AC2B78ED7700BB210F /* FunctionalComposition.swift */; };
-		C42163B62B7930FC00BB210F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B52B7930FC00BB210F /* DateFormatter.swift */; };
 		C42163BA2B79334300BB210F /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B82B79334300BB210F /* RepoCell.swift */; };
 		C42163BB2B79334300BB210F /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42163B92B79334300BB210F /* RepoCell.xib */; };
 		C42163BE2B79379E00BB210F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163BD2B79379E00BB210F /* WebViewController.swift */; };
+		C42163C02B7BBD1100BB210F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B52B7930FC00BB210F /* DateFormatter.swift */; };
 		C4C4229C2B7394F70026C957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4229B2B7394F70026C957 /* AppDelegate.swift */; };
 		C4C422A52B7394F90026C957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C422A42B7394F90026C957 /* Assets.xcassets */; };
 		C4C422A82B7394FA0026C957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C422A62B7394FA0026C957 /* LaunchScreen.storyboard */; };
@@ -433,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42163C02B7BBD1100BB210F /* DateFormatter.swift in Sources */,
 				C421639C2B78D96C00BB210F /* UserDetailsServerModel.swift in Sources */,
 				C4C422D92B73B8230026C957 /* NibLoadableView.swift in Sources */,
 				C421639E2B78D96C00BB210F /* GithubUserListResponseBuilder.swift in Sources */,
@@ -442,7 +443,6 @@
 				C421639D2B78D96C00BB210F /* GithubRepo.swift in Sources */,
 				C4C422D52B73B7E80026C957 /* Configurable.swift in Sources */,
 				C42163A22B78D96C00BB210F /* UserReposResponseBuilder.swift in Sources */,
-				C42163B62B7930FC00BB210F /* DateFormatter.swift in Sources */,
 				C42163A62B78EBBC00BB210F /* GithubService.swift in Sources */,
 				C4C422D72B73B8090026C957 /* Reusable.swift in Sources */,
 				C4C422FF2B73BEEF0026C957 /* UserDetailsRouter.swift in Sources */,

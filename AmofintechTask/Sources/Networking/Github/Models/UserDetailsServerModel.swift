@@ -67,10 +67,33 @@ extension UserDetailsServerModel: Hashable {
 
 extension UserDetailsServerModel: Comparable {
     public static func == (lhs: UserDetailsServerModel, rhs: UserDetailsServerModel) -> Bool {
-        return lhs.userID == rhs.userID
+        return lhs.userID == rhs.userID &&
+            lhs.accountName == rhs.accountName &&
+            lhs.userName == rhs.userName &&
+            lhs.followersCount == rhs.followersCount &&
+            lhs.followingCount == rhs.followingCount &&
+            lhs.publicReposCount == rhs.publicReposCount &&
+            lhs.createdAt == rhs.createdAt &&
+            lhs.email == rhs.email &&
+            lhs.bio == rhs.bio &&
+            lhs.location == rhs.location &&
+            lhs.avatarURL == rhs.avatarURL
     }
 
     public static func < (lhs: UserDetailsServerModel, rhs: UserDetailsServerModel) -> Bool {
-        return lhs.userID < rhs.userID
+        return lhs.userID < rhs.userID ||
+        (lhs.userID == rhs.userID && lhs.accountName < rhs.accountName) ||
+        (lhs.userID == rhs.userID && lhs.accountName == rhs.accountName && lhs.userName < rhs.userName) ||
+        (lhs.userID == rhs.userID && lhs.accountName == rhs.accountName && lhs.userName == rhs.userName
+            && lhs.avatarURL == rhs.avatarURL && lhs.email == rhs.email && lhs.bio == rhs.bio && lhs.location == rhs.location && lhs.createdAt < rhs.createdAt) ||
+        (lhs.userID == rhs.userID && lhs.accountName == rhs.accountName && lhs.userName == rhs.userName
+            && lhs.avatarURL == rhs.avatarURL && lhs.email == rhs.email && lhs.bio == rhs.bio && lhs.location == rhs.location
+            && lhs.createdAt == rhs.createdAt && lhs.followingCount < rhs.followingCount) ||
+        (lhs.userID == rhs.userID && lhs.accountName == rhs.accountName && lhs.userName == rhs.userName
+            && lhs.avatarURL == rhs.avatarURL && lhs.email == rhs.email && lhs.bio == rhs.bio && lhs.location == rhs.location
+            && lhs.createdAt == rhs.createdAt && lhs.followingCount == rhs.followingCount && lhs.followersCount < rhs.followersCount) ||
+        (lhs.userID == rhs.userID && lhs.accountName == rhs.accountName && lhs.userName == rhs.userName
+            && lhs.avatarURL == rhs.avatarURL && lhs.email == rhs.email && lhs.bio == rhs.bio && lhs.location == rhs.location
+            && lhs.createdAt == rhs.createdAt && lhs.followingCount == rhs.followingCount && lhs.followersCount == rhs.followersCount)
     }
 }
