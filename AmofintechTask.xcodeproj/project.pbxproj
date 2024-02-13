@@ -26,7 +26,7 @@
 		C42163BA2B79334300BB210F /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B82B79334300BB210F /* RepoCell.swift */; };
 		C42163BB2B79334300BB210F /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42163B92B79334300BB210F /* RepoCell.xib */; };
 		C42163BE2B79379E00BB210F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163BD2B79379E00BB210F /* WebViewController.swift */; };
-		C42163C02B7BBD1100BB210F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42163B52B7930FC00BB210F /* DateFormatter.swift */; };
+		C42E2D3F2B7BF8DE00F16849 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E2D3E2B7BF8DE00F16849 /* DateFormatter.swift */; };
 		C4C4229C2B7394F70026C957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4229B2B7394F70026C957 /* AppDelegate.swift */; };
 		C4C422A52B7394F90026C957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C422A42B7394F90026C957 /* Assets.xcassets */; };
 		C4C422A82B7394FA0026C957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C422A62B7394FA0026C957 /* LaunchScreen.storyboard */; };
@@ -57,10 +57,10 @@
 		C42163A72B78ED0400BB210F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		C42163A92B78ED7700BB210F /* HttpStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpStatus.swift; sourceTree = "<group>"; };
 		C42163AC2B78ED7700BB210F /* FunctionalComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalComposition.swift; sourceTree = "<group>"; };
-		C42163B52B7930FC00BB210F /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = "../../../../../../../../../Downloads/AtlanaTask-master 2/AtlanaTask/Sources/Helpers/Utilities/DateFormatter.swift"; sourceTree = "<group>"; };
 		C42163B82B79334300BB210F /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
 		C42163B92B79334300BB210F /* RepoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoCell.xib; sourceTree = "<group>"; };
 		C42163BD2B79379E00BB210F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C42E2D3E2B7BF8DE00F16849 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		C4C422982B7394F70026C957 /* AmofintechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmofintechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C4229B2B7394F70026C957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4C422A42B7394F90026C957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		C4C422D32B73B7C40026C957 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				C42163B52B7930FC00BB210F /* DateFormatter.swift */,
+				C42E2D3E2B7BF8DE00F16849 /* DateFormatter.swift */,
 				C42163AC2B78ED7700BB210F /* FunctionalComposition.swift */,
 				C42163A72B78ED0400BB210F /* Result.swift */,
 				C4C422D42B73B7E80026C957 /* Configurable.swift */,
@@ -433,7 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42163C02B7BBD1100BB210F /* DateFormatter.swift in Sources */,
+				C42E2D3F2B7BF8DE00F16849 /* DateFormatter.swift in Sources */,
 				C421639C2B78D96C00BB210F /* UserDetailsServerModel.swift in Sources */,
 				C4C422D92B73B8230026C957 /* NibLoadableView.swift in Sources */,
 				C421639E2B78D96C00BB210F /* GithubUserListResponseBuilder.swift in Sources */,
